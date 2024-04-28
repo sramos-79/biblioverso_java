@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrarse | BiblioVerso</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header class="headerUp">
+            <nav>
+                <ul class="headerUp">
+                    <a class="logoT" href="../index.html">
+                        <img class="logoT" src="../assets/img/logo.png" alt="Logo de BiblioVerso" width="80" loading="lazy">
+                        <span class="logoLetras">BIBLIOVERSO</span>
+                    </a>
+                    
+                    <li class="topF">
+                        <a  class="textD" href="../index.html">Populares</a>
+                    </li>
+                    <li class="topF">
+                        <a class="textD" href="../index.html">Novedades</a>
+                    </li>
+                    <li class="topF">
+                        <a class="textD" href="../pages/registrarse.html">Registrarse</a>
+                    </li>
+                    <li class="topF">
+                        <a class="textD" href="../pages/iniciar sesion.html">Iniciar Sesión</a>
+                    </li>
+                
+                </ul>
+                
+            </nav>
+        </header>
+        <main class="backSesion">
+            <section class="backSesion">
+             <h1 class="tamañoMedio">Registro</h1>
+             <form action="registro.php" method="post">
+                <div class="elementosR">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="elementosR">
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="elementosR">
+                    <input type="number" name="celular" id="celular" placeholder="Celular" required>
+                </div>
+                <div class="elementosR">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="elementosR">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                </div>
+                <div class="elementosR">
+                    <input type="date" name="fechadeNacimiento" id="fechadeNacimiento" placeholder="Fecha de nacimiento" required>
+                </div>
+                <div class="elementosR">
+                    <select name="pais" id="pais">
+                        <option value="">País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="PE">Perú</option>
+                        <option value="CL">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="US">United Sates</option>
+                        <option value="MX">Mexico</option>
+                        <option value="UR">Uruguay</option>
+                    </select>
+                </div>
+                <div class="elementosR">
+                    <label for="terminos">Acepto términos y condiciones.</label>
+                    <input type="checkbox" name="terminos" id="terminos">
+                </div>
+                <div class="elementosR">
+                    <input type="submit" value="Registrarse">
+                </div>
+                
+             </form>
+
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,323 @@
+/*fuentes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sedan:ital@0;1&display=swap');
+/*reseteo de valores*/
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    font-weight: 410;
+}
+/*edición de header*/
+.headerUp{
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 5px;
+    display: flex;
+    text-decoration: none;
+}
+
+.textD{
+    text-decoration: none;
+    color: #000000;
+}
+.logoT{
+    display: flex;
+    align-items: center;
+    display: inline;
+    vertical-align: middle;
+    text-decoration: none;
+
+}
+.logoLetras{
+    padding-right: 370px;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+
+}
+.topF{
+    margin-top: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: rgb(230, 211, 243);
+    width: 120px;
+    height: 15px;
+    border-radius: 5px;
+    align-items: end;
+    padding: 10px;
+    list-style: none;
+    font-display: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-size: 0.90rem;
+    
+    
+}
+/*edición de primer background*/
+.principalP{
+    background-image: url(../assets/img/background\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    image-orientation: right;
+    padding: 13px;
+    padding-bottom: 20px;
+    
+}
+.imagenBan{
+    padding-left: 150px;
+    padding-right: 40px;
+}
+/*colores de background*/
+.colorb3{ 
+    background-color: #eef8fa;
+    overflow: auto;
+    height: 24vh;
+}
+.colorf5{ 
+    background-image: url(../assets/img/background.png);
+    overflow: auto;
+    background-size: cover;
+
+}
+/*Edición titulos h1*/
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+/*Edición titulos h2*/
+h2{ color: #0d0d0d;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*Edición titulos registro y sesión*/
+.tamañoMedio{
+    font-size: 40px;
+    color: #000000;
+    background-color: #d0b7d4;
+}
+/*Edición párrafo*/
+p{ 
+    color: #0d0d0d;
+    font-size: 1rem;
+    text-align: justify;
+}
+/*Imagen background inicio de sesión*/
+.backSesion{
+    background-image: url("../assets/img/background1.jpg");
+    min-height: 100vh;
+
+
+}
+.elementosS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 30px;
+}
+.elementosR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 30px;   
+}
+/*Texto banner*/
+.bannF{
+    text-align: right;
+    float: right;
+    padding-right: 30px;
+    padding-top: 70px;
+    color: #eef8fa;
+    
+}
+/*botón registro*/
+.buttonR{
+    background: #d2be8b;
+    border-radius: 40px;
+    width: 150px;
+    height: 28px;
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left:500px;
+    margin-top: 20px;
+}
+/*botón busqueda*/
+.buscarSearch{
+    background: #dfdae2;
+    border-radius: 90px;
+    width: 300px;
+    height: 28px;
+    box-shadow: none;
+    border: none;
+    margin-left: 450px;
+    margin-top: 12px;
+}
+.buttonSearch{
+    background: #d0b7d4;
+    border-radius: 70px;
+    width: 40px;
+    height: 28px;
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+.searchTitle{
+    padding-top: 30px;
+}
+.contenidoLibros{
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.contenidoLtwo{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.textoPopulares{
+    padding-top: 130px;
+
+}
+.fooTer{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: row;
+    background-color: #9b849f;
+    justify-content: center;
+    height: 60px;
+    background-size: cover;
+}
+.buttonF{
+    border: none;
+    display: inline;
+    padding-bottom: 20px;
+    width: 120px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    font-display: center;
+    padding-top: 20px;
+    background-color: #9b849f;
+}
+@media screen and (max-width: 768px){
+    .headerUp{
+        padding: 2px;
+        align-items: baseline;
+        height: 65px;
+        padding-left: 13px;
+    
+    }
+    h1{
+
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+    }
+    .logoLetras{
+        padding-right: 7px;
+        font-weight: normal;
+    }
+    .topF{
+        width: fit-content;
+        font-size: 0.30rem;
+        display: block;
+        flex-direction: column;
+        height: 4px;
+        margin-left: 8px;
+        
+    }
+    .principalP{
+        padding-top: 7px;
+        background-size: cover;
+    }
+    .imagenBan{
+        padding: 15px;
+        padding-left: 12px;
+    }
+    .colorb3{ 
+        height: initial;
+}
+    .logoT{
+        width: 30px;
+    }
+    
+    .buttonR{
+        margin-left:100px;
+        margin-top: 0px;
+    }
+    .bannF{
+        padding-top: 0px;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .buttonR{
+        font-size: 13px;
+        margin-top: 26px;
+    }
+    .buscarSearch{
+        width: 200px;
+        margin-left: 60px;
+    }
+    .buttonSearch{
+        width: 60px;
+        margin-left: 20px;
+    
+    }
+    .searchTitle{
+        padding-top: 60px;
+    }
+    .colorf5{
+        background-size: cover;
+        justify-content: center;
+    }
+    .searchTitle{
+        padding-top: 70px;
+    }
+    .contenidoLibros{
+
+        padding-right: 0px;
+        padding-left: 120px;
+        
+    }
+    .textoPopulares{
+        flex-direction: row;
+    }
+    .contenidoLtwo{
+        padding-right: 500px;
+        padding-left: 120px;
+
+    }
+    .buttonF{
+        width: fit-content;
+        font-size: 1rem;
+        display: inline;
+        flex-direction: column;
+        height: 4px;
+        margin-left: 8px;
+        background-color: #9b849f;
+    }
+
+}
