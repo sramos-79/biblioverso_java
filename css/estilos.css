@@ -28,13 +28,7 @@
     text-decoration: none;
 
 }
-.logoLetras{
-    padding-right: 370px;
-    font-size: 1.2rem;
-    color: #000000;
-    font-weight: bold;
 
-}
 .topF{
     margin-top: 15px;
     margin-right: 20px;
@@ -65,10 +59,6 @@
     padding: 13px;
     padding-bottom: 20px;
     
-}
-.imagenBan{
-    padding-left: 150px;
-    padding-right: 40px;
 }
 /*colores de background*/
 .colorb3{ 
