@@ -56,9 +56,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
-    image-orientation: right;
     padding: 13px;
     padding-bottom: 20px;
+    height: 340px;
     
 }
 /*colores de background*/
@@ -133,13 +133,18 @@ p{
     text-align: right;
     float: right;
     padding-right: 30px;
-    padding-top: 70px;
+    padding-top: 20px;
     color: #000000;
     
 }
+.titulomain{
+    text-align: right;
+    padding-right:65px;
+    padding-top: 30px;
+}
 /*botón registro*/
 .buttonR{
-    background: #d2be8b;
+    background: #000000;
     border-radius: 40px;
     width: 150px;
     height: 28px;
@@ -147,8 +152,8 @@ p{
     border: none;
     color: #ffffff;
     font-size: 17px;
-    margin-left:500px;
-    margin-top: 20px;
+    margin-left:840px;
+    margin-top: 40px;
 }
 /*botón busqueda*/
 .buscarSearch{
