@@ -14,6 +14,9 @@
     padding: 5px;
     display: flex;
     text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .textD{
@@ -68,7 +71,7 @@
     height: 24vh;
 }
 .colorf5{ 
-    background-image: url(../assets/img/background.png);
+    background-color: #FFF1E2;
     overflow: auto;
     background-size: cover;
 
@@ -194,7 +197,7 @@ p{
     padding-bottom: 30px;
 }
 .textoPopulares{
-    padding-top: 130px;
+    padding-top: 45px;
 
 }
 .fooTer{
