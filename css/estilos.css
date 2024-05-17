@@ -26,6 +26,7 @@
     display: inline;
     vertical-align: middle;
     text-decoration: none;
+    padding-right: 184px;
 
 }
 
@@ -33,7 +34,7 @@
     margin-top: 15px;
     margin-right: 20px;
     text-decoration: none;
-    background-color: rgb(230, 211, 243);
+    background-color: #EBCCCC;
     width: 120px;
     height: 15px;
     border-radius: 5px;
@@ -74,7 +75,7 @@
 }
 /*Edición titulos h1*/
 h1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 3rem;
     padding-bottom: 20px;
@@ -133,7 +134,7 @@ p{
     float: right;
     padding-right: 30px;
     padding-top: 70px;
-    color: #eef8fa;
+    color: #000000;
     
 }
 /*botón registro*/
