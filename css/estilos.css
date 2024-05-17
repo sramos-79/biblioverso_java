@@ -63,7 +63,7 @@
 }
 /*colores de background*/
 .colorb3{ 
-    background-color: #eef8fa;
+    background-color: #ffffff;
     overflow: auto;
     height: 24vh;
 }
@@ -157,7 +157,7 @@ p{
 }
 /*botón busqueda*/
 .buscarSearch{
-    background: #dfdae2;
+    background: #DFB9B9;
     border-radius: 90px;
     width: 300px;
     height: 28px;
@@ -167,13 +167,13 @@ p{
     margin-top: 12px;
 }
 .buttonSearch{
-    background: #d0b7d4;
+    background: #EBCCCC;
     border-radius: 70px;
     width: 40px;
     height: 28px;
     box-shadow: none;
     border: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 17px;
 }
 .searchTitle{
