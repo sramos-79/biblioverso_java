@@ -262,10 +262,8 @@ h2{ color: #0d0d0d;
 
 @media screen and (max-width: 768px){
     .headerUp{
-        padding: 2px;
-        align-items: baseline;
-        height: 65px;
-        padding-left: 13px;
+        padding: 10px;
+        align-items: flex-end;
     
     }
     h1{
