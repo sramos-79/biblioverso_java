@@ -261,11 +261,24 @@ h2{ color: #0d0d0d;
 }
 
 @media screen and (max-width: 768px){
+
     .headerUp{
-        padding: 10px;
-        align-items: flex-end;
-    
+        background-color: aqua;
+        width: 100%;
+
+
+        
     }
+    .headerUp nav ul {
+        
+        flex-direction: row;
+     
+    }
+
+    .headerUp nav ul li {
+        margin: 0;
+    }
+
     h1{
 
         font-size: 1.3rem;
@@ -286,15 +299,15 @@ h2{ color: #0d0d0d;
     }
     .principalP{
         padding-top: 7px;
-        background-size: cover;
+        width: 100%;
+       
     }
-    .imagenBan{
-        padding: 15px;
-        padding-left: 12px;
-    }
+
     .colorb3{ 
         height: initial;
-}
+        width: 100%;
+        background-color: #9b849f;
+    }
     .logoT{
         width: 30px;
     }
@@ -353,6 +366,9 @@ h2{ color: #0d0d0d;
         height: 4px;
         margin-left: 8px;
         background-color: #9b849f;
+    }
+    .fooTer{
+        width: 100%;
     }
 
 }
