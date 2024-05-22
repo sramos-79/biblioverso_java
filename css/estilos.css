@@ -105,21 +105,23 @@ h2{ color: #0d0d0d;
     background-color: #ffffff;
     overflow: auto;
     height: 24vh;
+    text-align: center;
 }
 .searchTitle{
     padding-top: 30px;
 }
 .buscarSearch{
+    align-items: center;
     background: #DFB9B9;
     border-radius: 90px;
     width: 300px;
     height: 28px;
     box-shadow: none;
     border: none;
-    margin-left: 450px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 .buttonSearch{
+    justify-content: center;
     background: #EBCCCC;
     border-radius: 70px;
     width: 40px;
@@ -202,6 +204,7 @@ h2{ color: #0d0d0d;
     background-color: #000000;
     background-size: cover;
     height: 70px;
+    text-align: center;
 }
 .buttonF{
     display: flex;
@@ -209,8 +212,9 @@ h2{ color: #0d0d0d;
     border: none;
     padding-bottom: 20px;
     padding-top: 30px;
-    margin-right: 134px;
-    margin-left: 134px;
+    justify-content: center;
+    width: 100%;
+
 
 }
 .copyRight{
