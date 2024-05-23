@@ -227,11 +227,22 @@ h2{ color: #0d0d0d;
     width: 100%;
     background-color: #000000;
 }
-/*Edición fondo títulos registro y sesión*/
+/*Edición fondo títulos registro y sesión */
 .tamañoMedio{
     font-size: 40px;
     color: #000000;
-    background-color: #d0b7d4;
+}
+/*Botón Detalle*/
+.botonDetalle{
+    background: #000000;
+    border-radius: 80px;
+    width: 100px;
+    height: 28px;
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    
 }
 
 /*Imagen background inicio de sesión y registro*/
