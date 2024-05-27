@@ -7,7 +7,7 @@ body{
     font-family: "Lora", serif;
 }
 .bDetalle{
-    background-color: #E4D3ED;
+    background-color: #FFF1E2;
     color: black;
 }
 .bgBlanco{
@@ -25,6 +25,84 @@ body{
     height: 35px;
     line-height: 19px;
   }
+.bgBlack{
+    background-color: black;
+    height:24vh;
+}
+.letraF{
+    font-size: 1.03rem;
+}
+.padTop{
+    padding-top: 30px;
+}
+.btnColor{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 40px;
+    width: 100px;
+}
+.principalP{
+    background-image: url(../assets/img/background\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 361px;
+}
+.tituloMain{
+    padding-right: 100px;
+    font-size: 3.2rem;
+}
+.mainTwo{
+    padding-right: 83px;
+}
+.botonRegistro{
+    padding-right: 270px;
+    height: 60px;
+    
+}
+.textoBusqueda{
+    background-color:#DFB9B9;
+    width: 300px;
+}
+.botonBuscar{
+    background-color: #EBCCCC;
+    width: 45px;
+    height: 28px;
+}
+.botonAnterior{
+    background-color: #ffffff;
+    width: 150px;
+    height: 28px;
+    color: black;
+    font-size: 1.03rem;
+}
+.botonSiguiente{
+    background-color: black;
+    width: 150px;
+    height: 28px;
+    color: #ffffff;
+    border-style: none;
+    font-size: 1.03rem;
+}
+.hrColor{
+    background-color: black;
+}
+.bgSesion{
+    background-image: url(../assets/img/background1.jpg);
+    min-height: 100vh;
+}
+.bgformSesion{
+    background-color: #EBCCCC;
+    margin-top: 130px;
+    width: 400px;
+    height: 260px;
+}
+.bgformRegistro{
+    background-color: #EBCCCC;
+    margin-top: 20px;
+    width: 400px;
+    height: 470px;
+}
 @media only screen and (max-width: 767px) {
     .nav-pills .nav-link.active,
     .nav-pills .show > .nav-link{
@@ -32,5 +110,8 @@ body{
     }
     .nav-pills .nav-link{
         text-align: initial;
+    }
+    .separacionFaqs{
+        margin-right: 60px;
     }
 }

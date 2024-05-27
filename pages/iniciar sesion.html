@@ -5,48 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Iniciar Sesión | BiblioVerso</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/estilos_bootstrap.css">
     </head>
-    <body>
-        <header class="headerUp">
-            <nav>
-                <ul class="headerUp">
-                    <a class="logoT" href="../index.html">
-                        <img class="logoT" src="../assets/img/logo.png" alt="Logo de BiblioVerso" width="230" loading="lazy">
-                    </a>
+    <body class="bgSesion">
+        <header class="headerUp sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bgBlanco">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">
+                    <img class="logoT" src="../assets/img/logo.png" alt="Logo de BiblioVerso" width="230" loading="lazy">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end nav-pills d-flex">
+                      <li class="nav-item me-3">
+                        <a class="nav-link active fs-6" aria-current="page" href="../index.html">Populares</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link active fs-6" href="../index.html">Novedades</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link active fs-6" href="../pages/registrarse.html">Registrarse</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link active fs-6" href="../pages/iniciar sesion.html">Iniciar sesión</a>
+                      </li>
+                    </ul>
                     
-                    <li class="topF">
-                        <a  class="textD" href="../index.html">Populares</a>
-                    </li>
-                    <li class="topF">
-                        <a class="textD" href="../index.html">Novedades</a>
-                    </li>
-                    <li class="topF">
-                        <a class="textD" href="../pages/registrarse.html">Registrarse</a>
-                    </li>
-                    <li class="topF">
-                        <a class="textD" href="../pages/iniciar sesion.html">Iniciar Sesión</a>
-                    </li>
-                
-                </ul>
-                
-            </nav>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main class="backSesion">
-            <section class="backSesion">
-             <h1 class="tamañoMedio">Iniciar Sesión</h1>
+    <body>
+        <main class="d-flex justify-content-center">
+            <section class="card bgformSesion">
+             <h1 class="d-flex justify-content-center pt-4">Iniciar Sesión</h1>
              <form action="inicio.php" method="post">
-                <div class="elementosS">
+                <div class="d-flex justify-content-center pb-4 pt-3">
                     <input type="email" name="email" id="email" placeholder="Email" required>
                 </div>
-                <div class="elementosS">
+                <div class="d-flex justify-content-center pb-4">
                     <input type="password" name="password" id="password" placeholder="Contraseña" required>
                 </div>
-                <div class="elementosS">
+                <div class="d-flex justify-content-center">
                     <a href="../index.html">
-                    <input type="button" value="Volver"></a>
-                
-                    <input type="submit" value="Iniciar sesión">
+                    <input class="botonAnterior" type="button" value="Volver"></a>
+                    <input class="botonSiguiente ms-2" type="submit" value="Iniciar sesión">
                 </div>
                 
              </form>
@@ -58,6 +64,6 @@
         <footer>
 
         </footer>
-        
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
