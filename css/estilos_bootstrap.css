@@ -103,6 +103,18 @@ body{
     width: 400px;
     height: 470px;
 }
+.error-message{
+    color: rgb(215, 25, 25);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 30px;
+}
+.error-messager{
+    color: rgb(215, 25, 25);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 23px;
+}
 @media only screen and (max-width: 767px) {
     .nav-pills .nav-link.active,
     .nav-pills .show > .nav-link{

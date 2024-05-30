@@ -42,12 +42,14 @@
         <main class="d-flex justify-content-center">
             <section class="card bgformSesion">
              <h1 class="d-flex justify-content-center pt-4">Iniciar Sesión</h1>
-             <form action="inicio.php" method="post">
+             <form action="" method="post" id="loginForm">
                 <div class="d-flex justify-content-center pb-4 pt-3">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div class="error-message" id="emailError"></div>
                 </div>
                 <div class="d-flex justify-content-center pb-4">
-                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                    <input type="password" name="password" id="password" placeholder="Contraseña">
+                    <div class="error-message" id="passwordError"></div>
                 </div>
                 <div class="d-flex justify-content-center">
                     <a href="../index.html">
@@ -65,5 +67,6 @@
 
         </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/validacion_login.js"></script>
     </body>
 </html>
