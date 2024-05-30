@@ -54,6 +54,7 @@ body{
 }
 .mainTwo{
     padding-right: 83px;
+    font-size: 1.43rem;
 }
 .botonRegistro{
     padding-right: 270px;
@@ -123,7 +124,7 @@ body{
 .paddingc{
     padding-top: 12px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 840px) {
     .nav-pills .nav-link.active,
     .nav-pills .show > .nav-link{
         background-color: transparent;
@@ -134,4 +135,35 @@ body{
     .separacionFaqs{
         margin-right: 60px;
     }
+    .principalP{
+        height: 250px;
+    }
+    .tituloMain{
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 280px;
+    }
+    .mainTwo{
+        text-align: center;
+        padding-right: 22px;
+        font-size: 0.5rem;
+    }
+    .clima{
+        background-size: cover;
+        height: 14vh;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    .botonRegistro{
+        height: 35px;
+    }
+    .fontColor{
+        font-size: 10px;
+        padding-top: 1px; 
+        width: 70px;
+        margin-left: 100px;
+        justify-content: center;
+    }
+    
 }
